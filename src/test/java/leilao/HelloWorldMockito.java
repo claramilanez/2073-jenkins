@@ -15,7 +15,7 @@ public class HelloWorldMockito {
 	void hello() {
 		LeilaoDao mock = Mockito.mock(LeilaoDao.class);
 		List<Leilao> todos = mock.buscarTodos();
-		Assert.assertTrue(todos.isEmpty());
+		Assert.assertTrue(todos.isEmpty()); //comentário apenas para forçar commit e testar disparar job no jenkins
 	}
 
 }
