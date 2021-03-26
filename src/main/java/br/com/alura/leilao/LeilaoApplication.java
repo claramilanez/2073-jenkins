@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LeilaoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LeilaoApplication.class, args);
+		SpringApplication.run(LeilaoApplication.class, args);//comentario qq para fazer commit e provocar o build no jenkins
 	}
 
 }
